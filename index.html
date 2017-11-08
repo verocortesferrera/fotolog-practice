@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FOTOLOG - ..::ÁrÉnItÁ .´´´ ÁmíGáS x CrÉw::..</title>
+	<!-- Link Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Link mis estilos -->
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<!-- Header con el logo de FOTOLOG -->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 logo">
+				<img src="https://blogmegara.files.wordpress.com/2015/08/fotolog-logo.png" alt="Fotolog">
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Título Arenita -->
+	<section id="bannerflog">
+		<div class="container">
+			<div class="col-md-12 text-center">
+				<h1>..::ÁrÉnItÁ .´´´ ÁmíGáS x CrÉw::..</h1>
+			</div>
+		</div>
+	</section>
+
+	<!-- Columnas fotos recientes, arenita amigas x crew y amigos/favoritos -->
+	<section id="contenido">
+		<div class="container">
+			<div class="col-md-2 recientes">
+				<a href="">Fotos Recientes</a>
+				<img src="http://sp3.fotolog.com/photo/51/4/65/totalcdelu2/1229529094927_f.jpg" alt="">
+			</div>
+			<div class="col-md-8">
+				<img src="http://images.lun.com/lunservercontents/Imagenes%20de%20la%20galeria%20de%20la%20foto//2011/sep/22/m1_768_11MS.jpg" alt="">
+				<p>AqUi EStAáá Mi AmIgA ArEnItAáÁÁ</p>
+			</div>
+			<div class="col-md-2 ff">
+				<a href="">Amigos/Favoritos</a>
+				<img src="http://www.laopinon.cl/sites/laopinon.cl/files/imagecache/380x285/imagen_noticia/pokemones.jpg" alt="">
+				<img src="http://img.webme.com/pic/e/estileros/p3.jpg" alt="">
+			</div>
+		</div>
+	</section>
+
+	<!-- input y textarea donde se ingresan los mensajes -->
+	<section id="dejar-posteo">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<strong>Deja tu comentario</strong>
+
+					<input id="nombre" type="text" placeholder="nombre">
+
+					<textarea name="comentario" id="cajaposteos" cols="30" rows="10"></textarea>
+					<p id="counter-characters"><span>Hermààààn@ eScRiBiSTèèèè --> </span> 0 <span><-- caRàààCTeREzzZZz oe ZZzzZììììì</span></p>
+
+					<button id="btn">Enviar</button>
+
+					<!-- CONTENEDOR DE POSTEOS -->
+					<div id="contenedor-posteos" class="text-left"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="assets/js/app.js"></script>
+</body>
+</html>
